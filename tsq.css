@@ -1,0 +1,78 @@
+                          header, footer, article, section, hgroup, nav, figure, form {
+                          /* Giving a display value to the HTML5 rendered elements: */
+                          display: block;
+                        }
+                        * {
+                          font-family: Book Antiqua;
+                          color: #330009;
+                        }
+                        .textlogo {
+                          font-family: Book Antiqua;
+                          width: 200px;
+                          border: 0px solid #d9b38c;
+                          border-style: ridge;
+                          float: left;
+                          background-color: #fdecce;
+                        }
+                        .webhead {
+                          font-family: Book Antiqua;
+                          color: #4d000e;
+                          font-weight: bold;
+                          font-variant: small-caps;
+                          text-align: center;
+                        }
+                        html {
+                          background-color: #fdecce;
+                        }
+                        ul {
+                          list-style-type: none;
+                          margin-left: 0;
+                          padding: 0;
+                          overflow: hidden;
+                          background-color: #d9b38c;
+                        }
+                        body {
+                          margin-left: 200px;
+                          margin-right: 200px;
+                          margin-bottom: 25px;
+                        }
+                        li a:hover {
+                          background-color: #dfbf9f;
+                          color: #4d000e;
+                        }
+                        .active {
+                          background-color: #dfbf9f;
+                          color: #4d000e;
+                        }
+                        li a {
+                          display: block;
+                          color: #4d000e;
+                          text-align: center;
+                          padding: 14px 16px;
+                          text-decoration: none;
+                          font-family: Book Antiqua;
+                          font-weight: bold;
+                        }
+                        li {
+                          border-right: 5px solid #fdecce;
+                          border-style: hidden;
+                          float: left;
+                          border-color: #4d000e;
+                          border-width: 5px;
+                        }
+                        li:last-child {
+                          border-right: none;}
+                          h1 {
+                            color: #fdecce;
+                            background-color: #fdecce;
+                          }
+                          body {
+                            background-color: #fdecce;
+                          }
+                          a.up {
+                            background-color: #d9b38c;
+                          }
+                          img {
+                            display: block;
+                            margin: auto;
+                          }
